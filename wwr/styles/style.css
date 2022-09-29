@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Walter+Turncoat&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,16 +8,25 @@
 body {
     background-color: white;
     color: #05124D;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header{
     background-color: #05124D;
     color: white;
+    font-family: 'Walter Turncoat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 /*Nav*/
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover { 
     background-color:#F99C1A ;
@@ -32,6 +43,7 @@ nav a:hover {
 main section {
     text-align: center;
 }
+
 #background {
     height: 725px;
     background-color: #53C1B6;
@@ -40,6 +52,10 @@ main section {
     background-color:#F99C1A;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color:#53C1B6;
@@ -48,18 +64,26 @@ main section {
 /*msg*/
 .msg {
     background-color:#05124D;
+    font-size: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color:white;
+    font-family: 'Walter Turncoat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 .msg p {
     color:#53C1B6;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 /*-------------------------------*/
 /*Footer*/
 footer{
     background-color: black;
     color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3{
     color:white;
@@ -74,13 +98,41 @@ footer a{
 footer p{
     font-size: 1.2em;
 }
+footer .social img{
+    padding-top: 15px;
+}
 /*--------------------------*/
 .logo{
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px ;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
+}
+
+#hero-msg h1{
+    font-family: 'Walter Turncoat', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.card-img {
+    border: 10px solid #F99C1A;
+    margin-top: 25px;
+    
+}
+.river-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+main section img{
+    box-sizing: border-box;
 }
