@@ -24,10 +24,11 @@ header{
     
 }
 /*Nav*/
-nav a {
+nav {
     display: flex;
     justify-content: space-around;
-    text-align: center;
+}
+nav a {
     color: white;
     text-decoration: none;
     padding: 35px;
@@ -211,6 +212,38 @@ main section img{
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+}
+
+/*subpage*/
+#cover {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+#cover-box {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    z-index: -1;
+}
+#cover-img {
+    width: 100%;
+}
+#cover-msg h1{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-size: 150px;
+    color: black;
+    z-index: 1;
+    
+}
+
+.questions-answers{
+    margin: 200px;
+}
+
+ #questions h3 {
+    background-color:#F99C1A;
+    color: white;
 }
 
 @media screen and (max-width: 900px) {
