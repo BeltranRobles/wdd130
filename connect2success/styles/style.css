@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Quicksand:wght@400;500&display=swap');
+
+#content{
+    width: auto;
+    margin: auto;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Quicksand', helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: #66CEF5;
+}
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a {
+    color: black;
+    padding: 100px;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bolder;
+}
+nav a:hover{
+    background-color: #FCCF2B;
+    color: white;
+}
+#firstnav{ 
+    grid-column: 1/4;
+    grid-row: 1/2;
+    height: 100px;
+  
+
+}
+#secondnav{
+    grid-column: 6/11;
+    grid-row: 1/2;
+    height: 100px;
+   }
+#logo_link { 
+    grid-column: 4/7;
+    grid-row-start: 1;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#missbeltran{ 
+    grid-column: 1/2;
+    width: auto;
+    height: 700px;
+    float: left;
+    margin-top: 300px;
+    margin-left: 100px;
+    
+}
+
+main #welcome-msg{
+    grid-column: 2/4;
+    float: right;
+    
+}
