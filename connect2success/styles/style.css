@@ -1,77 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&family=Quicksand:wght@400;500&display=swap');
 
-#content{
-    width: auto;
-    margin: auto;
-}
 
-body {
-    background-color: white;
-    color: black;
-    font-family: 'Quicksand', helvetica, sans-serif;
+header{ 
+    display: grid;
+    grid-template-columns: 100px auto;
+    background-color:aqua;
+    color: white;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+nav a  {
+    text-decoration: none;
+}
+.logo{
+    width: 100%;
+}
+#missbeltran{
+    width: 200px;
+    height: 300px;
+}
+#welcome-msg p{
+    width: 500px;
+    height: 100px;
+}
+#introduction-msg{
+    width:450px;
+    height:300px;
+}
+#teachers{
+    width: 250px;
+    height:200px;
+}
+#teacher-board{
+    width:200px;
+    height: 150px;
+}
+body{
     margin: 0;
     padding: 0;
 }
-header{ 
+#about-me{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    background-color: #66CEF5;
-}
-
-nav{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
-nav a {
-    color: black;
-    padding: 100px;
-    margin-top: 100px;
-    text-align: center;
-    font-weight: bolder;
-}
-nav a:hover{
-    background-color: #FCCF2B;
-    color: white;
-}
-#firstnav{ 
-    grid-column: 1/4;
-    grid-row: 1/2;
-    height: 100px;
-  
-
-}
-#secondnav{
-    grid-column: 6/11;
-    grid-row: 1/2;
-    height: 100px;
-   }
-#logo_link { 
-    grid-column: 4/7;
-    grid-row-start: 1;
-    width: 200px;
-    height: 200px;
-    align-items: center;
-    
-}
-main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-#missbeltran{ 
-    grid-column: 1/2;
-    width: auto;
-    height: 700px;
-    float: left;
-    margin-top: 300px;
-    margin-left: 100px;
-    
-}
-
-main #welcome-msg{
-    grid-column: 2/4;
-    float: right;
-    
+    grid-template-columns: 1fr 3fr ;
 }
